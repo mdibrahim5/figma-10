@@ -1,0 +1,436 @@
+body {
+    margin:0;
+    padding: 0;
+}
+/****************************header-area*************************/
+.header-area {
+    overflow: hidden;
+    background: #f8c615;
+}
+.home-text h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+.header-area  input[type=text] {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+
+}
+.header-area  .input-icons i {
+    position: absolute;
+}
+.header-area  .icon {
+     padding: 10px;
+     min-width: 40px;
+     color: #f8c615;
+    font-size: 20px;
+}
+.header-area  .input-field {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.header-area  .location {
+    color: #f8c615;
+    font-size: 18px;
+    margin-left: 2px;
+}
+.header-area  .home-img img {
+    width: 100%;
+}
+.header-area  .btn {
+    color: #f8c615;
+    margin-left: 2px;
+    border: 1px solid #f8c615;
+}
+
+.header-area  .btn:hover {
+    background: #f8c615;
+    color: #FFFFFF;
+}
+.header-area  .btn i:hover {
+    background: #f8c615;
+    color: #FFFFFF;
+}
+.form-area {
+    background: #FFFFFF;
+    border-radius: 25px 25px;
+}
+.form-area ul {
+    margin: 0;
+    padding: 0;
+}
+.form-area ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+}
+.form-area ul li a {
+    text-decoration: none;
+    color: #666666;
+}
+.form-area ul li a:hover {
+    text-decoration: none;
+    color: #f38240;
+    padding: 5px 10px;
+    background: #fef1e9;
+}
+.form-area ul .active a {
+    text-decoration: none;
+    color: #f38240;
+    padding: 5px 10px;
+    background: #fef1e9;
+}
+.btn-2 {
+    background: #fc6c45;
+    color: #FFFFFF;
+    border: 1px solid #fc6c45;
+}
+.btn-2:hover {
+    background: #FFFFFF;
+    color: #fc6c45;
+}
+/************************discount-area********************************/
+.discount-area {
+    overflow: hidden;
+}
+.discount-item .item-overly{
+    position: relative;
+}
+.discount-item .item-overly img {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.discount-item .item-text {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    background: #f8c615;
+    border-radius: 15px 15px 20px 0;
+}
+
+.discount-item .item-text span {
+    color: #FFFFFF;
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.discount-item h6 {
+    margin-top: 10px;
+}
+.discount-item a {
+    text-decoration: none;
+    color: #f38240;
+    padding: 5px 10px;
+    background: #fef1e9;
+}
+.discount-item a:hover {
+    text-decoration: none;
+    color: #666666;
+}
+/**************************work-area**************************/
+.work-area {
+    overflow: hidden;
+    background: #fffbf3;
+}
+.work-area h2 {
+    color: #fc6c45;
+    font-size: 50px;
+    font-weight: 700;
+}
+.work-item a {
+    text-decoration: none;
+}
+.work-item a i {
+    color: #FFFFFF;
+    background: #f8c615;
+    font-size: 45px;
+    padding: 10px 20px;
+    border-radius: 15px 15px;
+}
+.work-item h6 {
+    margin-top: 10px;
+    font-weight: 700;
+    color: #000000;
+}
+.work-item p {
+    color: #666666;
+}
+/*************************item-area**************************/
+.item-area {
+    overflow: hidden;
+}
+.item-area img {
+    width: 100%;
+}
+.item-area h6 {
+    color: #000000;
+    font-weight: 700;
+}
+.item-area p {
+    color: #f8c615;
+}
+.item-area  a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 90px;
+    background: #f38240;
+    text-align: center;
+}
+.item-area  a:hover {
+    text-decoration: none;
+    color: #f38240;
+    background: #FFFFFF;
+    border: 1px solid #f38240;
+}
+/**********************************************feature-area *************************/
+.feature-area {
+    overflow: hidden;
+}
+.feature-area h2 {
+    text-align: center;
+    color: #fc6c45;
+    font-size: 50px;
+    font-weight: 700;
+}
+.feature-area .item-overly {
+    position: relative;
+}
+.feature-area .item-overly img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.feature-area .item-overly ul {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.feature-area .item-overly ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 5px;
+}
+.feature-area .item-overly ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.feature-area .item-overly ul li .active {
+    padding: 5px 10px;
+    background: #f17228;
+    border-radius: 10px 10px;
+}
+.feature-area .item-overly ul li .current {
+    padding: 5px 10px;
+    background: #f8c615;
+    border-radius: 10px 10px;
+}
+.feature-item ul {
+    padding: 0;
+    margin: 0;
+}
+.feature-item ul li {
+    list-style: none;
+    display: inline-block;
+}
+.feature-item ul li a {
+    text-decoration: none;
+}
+.feature-item {
+    margin: 20px 0;
+}
+.feature-item  img {
+    margin-bottom: 20px;
+}
+.feature-item h6 {
+    color: #000000;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.feature-item span {
+    font-size: 14px;
+    color: #f8c615;
+}
+.feature-item .current {
+    color: #f17228;
+    background: #fce3d4;
+    padding: 10px 10px;
+    border-radius: 15px 15px;
+    text-decoration: none;
+}
+.feature-item .current:hover {
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+.feature-item .active {
+    text-decoration: none;
+    color: #79b93c;
+    background: #e4f1d8;
+    padding: 10px 30px;
+    border-radius: 15px 15px;
+}
+.feature-item .active:hover {
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+.link a{
+    color: #FFFFFF;
+    background: #ffad1c;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 15px 15px;
+}
+.link a:hover {
+    color: #ffad1c;
+    background: #FFFFFF;
+    border: 1px solid #ffad1c;
+}
+/*********************************search-area***********************/
+.search-area {
+    overflow: hidden;
+}
+.search-area h2 {
+    font-weight: 700;
+}
+.search-area  a {
+    color: #ffad1c;
+    text-decoration: none;
+    font-size: 14px;
+}
+.search-area  a:hover{
+     color: #FFFFFF;
+    background: #ffad1c;
+    padding: 10px 30px;
+    border-radius: 15px 15px;
+}
+.search-area img {
+    border-radius: 50%;
+}
+.owl-carousel-two {
+    text-align: center;
+}
+/******************************order-area***********************/
+.order-area {
+    overflow: hidden;
+    background: #f4f4f4;
+}
+.order-area  img {
+    width: 100%;
+}
+.order-text {
+    background: #FFFFFF;
+    margin-top: 40px;
+}
+.order-text h2 {
+    color: #000000;
+    font-weight: 700;
+}
+.order-text span {
+    color: #ffb30e;
+}
+.order-text p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.order-text a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #ff9700;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 15px 15px;
+}
+.order-text a:hover {
+    color:  #ff9700;
+    background: #FFFFFF;
+    border: 1px solid  #ff9700;
+}
+/********************************deal-area*****************************/
+.deal-area {
+    background: url('image/Image%20(3).png') no-repeat 0 0 / 100% 100%;
+    overflow: hidden;
+    color: #FFFFFF;
+    min-height: 300px;
+}
+.deal-text h1{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.deal-text  a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #ff9700;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 15px 15px;
+}
+.deal-text a:hover {
+    color:  #ff9700;
+    background: #FFFFFF;
+    border: 1px solid  #ff9700;
+}
+/***********************************************footer-area*************************/
+.footer-area {
+    background: #000000;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.footer-area h6 {
+    font-weight: 700;
+    font-size: 25px;
+}
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-area ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+.footer-area ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-area  input[type=text] {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+
+}
+.footer-area  .input-icons i {
+    position: absolute;
+}
+.footer-area .icon {
+     padding: 10px;
+     min-width: 40px;
+     color: #f8c615;
+    font-size: 20px;
+}
+.footer-icon ul li {
+    margin: 0 10px;
+    display: inline-block;
+}
+.footer-area ul .active {
+    font-size: 20px;
+}

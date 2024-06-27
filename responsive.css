@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1200px) {
+    .discount-item .item-text h2 {
+        font-size: 10px;
+    }
+}
